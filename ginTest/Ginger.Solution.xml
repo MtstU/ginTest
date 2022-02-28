@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="d32de813-6284-4b0b-9a8b-c3ea97aae814" ItemType="Solution" CreatedBy="michmolo" Created="202202281715" GingerVersion="4.1.0.0" Version="2" LastUpdateBy="michmolo" LastUpdate="202202281715" />
+<Solution EncryptedValidationString="XLmaS/d+RDkfrBS+pQew4w==" Guid="d32de813-6284-4b0b-9a8b-c3ea97aae814" Name="ginTest" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="MyWebApp" Guid="28389670-4a0a-4613-bed2-53e383c58530" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DataPublishingPhase="PostExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="3d4affac-f1d6-47f2-8a0b-5ff68a5e0548" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="3e90c441-9c1b-406b-9490-7110a6e1c2f1" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+</Solution></GingerRepositoryItem>
