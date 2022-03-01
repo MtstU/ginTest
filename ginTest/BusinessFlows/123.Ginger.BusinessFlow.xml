@@ -1,32 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="82e41f83-43fa-430a-a63a-0068785ba73f" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202202281720" GingerVersion="4.1.0.0" Version="2" LastUpdateBy="michmolo" LastUpdate="202202281722" />
-<BusinessFlow Guid="82e41f83-43fa-430a-a63a-0068785ba73f" Name="123" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202202281727" GingerVersion="4.1.0.0" Version="2" LastUpdateBy="michmolo" LastUpdate="202202281727" />
+<BusinessFlow Guid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" Name="123" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Step 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="16bb06ad-e8d7-4636-8404-44a4904ede36" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00%%" TargetApplication="MyWebApp">
-<Acts>
-<ActBrowserElement Active="True" Description="Browser Action" Guid="a419a8be-7d92-4ce1-8553-a6adade163b1" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<InputValues>
-<ActInputValue Guid="1216dd1d-7338-4479-8c27-415813d24be2" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
-</InputValues>
-</ActBrowserElement>
-<ActSmartSync Active="True" Description="Smart Sync Action" Guid="d0bc01f3-4aa0-4704-b313-808a47d92ff6" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<InputValues>
-<ActInputValue Guid="f8c02874-fd3d-4c05-ba6d-eea4a2532be5" Param="SmartSyncAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="WaitUntilDisplay" />
-</InputValues>
-</ActSmartSync>
-</Acts>
-</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Step 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b321357d-4e20-40ae-9349-a67197309aee" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0,00%%" TargetApplication="MyWebApp" />
 </Activities>
 
 <ActivitiesGroups>
-<ActivitiesGroup Guid="ba5935c6-2587-4eb4-b319-d1252df082ad" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesGroup Guid="8238b099-507d-4da1-a075-a81e8578a7c6" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="16bb06ad-e8d7-4636-8404-44a4904ede36" ActivityName="Step 1" Guid="5062a2a6-e15e-41f2-8bd5-c76cb52d8d4f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b321357d-4e20-40ae-9349-a67197309aee" ActivityName="Step 1" Guid="c025dbac-8554-43f8-ad35-9954cef9500a" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
 
 <TargetApplications>
-<TargetApplication AppName="MyWebApp" Guid="a910c875-c029-4e2f-8615-60e014b1624d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="MyWebApp" Guid="c770db4d-5042-46ab-8e8d-df5ee4327506" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </TargetApplications>
 </BusinessFlow></GingerRepositoryItem>
