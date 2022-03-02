@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202202281727" GingerVersion="4.2.0.0" Version="4" LastUpdateBy="Пользователь" LastUpdate="202203021210" />
+<GingerRepositoryItem><Header ItemGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202202281727" GingerVersion="4.2.0.0" Version="5" LastUpdateBy="Пользователь" LastUpdate="202203021211" />
 <BusinessFlow Guid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" Name="1234" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Step 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b321357d-4e20-40ae-9349-a67197309aee" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0,00%%" TargetApplication="MyWebApp" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Step 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b321357d-4e20-40ae-9349-a67197309aee" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00%%" TargetApplication="MyWebApp">
+<Acts>
+<ActScreenShot Active="True" Description="Screen Shot Action" Guid="b9f9df36-8bc5-4863-b226-d2f227adcc74" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="8238b099-507d-4da1-a075-a81e8578a7c6" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b321357d-4e20-40ae-9349-a67197309aee" ActivityName="Step 1" Guid="1dde6888-9295-4ae6-8d36-e7b7f4ff7251" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b321357d-4e20-40ae-9349-a67197309aee" ActivityName="Step 1" Guid="3dd225aa-0f9e-476b-8768-138149b2fda9" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
