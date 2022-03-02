@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="d32de813-6284-4b0b-9a8b-c3ea97aae814" ItemType="Solution" CreatedBy="michmolo" Created="202202281715" GingerVersion="4.1.0.0" Version="3" LastUpdateBy="michmolo" LastUpdate="202202281720" />
+<GingerRepositoryItem><Header ItemGuid="d32de813-6284-4b0b-9a8b-c3ea97aae814" ItemType="Solution" CreatedBy="michmolo" Created="202202281715" GingerVersion="4.2.0.0" Version="4" LastUpdateBy="Пользователь" LastUpdate="202203021210" />
 <Solution EncryptedValidationString="XLmaS/d+RDkfrBS+pQew4w==" Guid="d32de813-6284-4b0b-9a8b-c3ea97aae814" Name="ginTest" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="28389670-4a0a-4613-bed2-53e383c58530" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
