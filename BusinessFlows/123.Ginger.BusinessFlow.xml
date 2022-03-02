@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202202281727" GingerVersion="4.2.0.0" Version="5" LastUpdateBy="Пользователь" LastUpdate="202203021211" />
+<GingerRepositoryItem><Header ItemGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202202281727" GingerVersion="4.2.0.0" Version="6" LastUpdateBy="Пользователь" LastUpdate="202203021348" />
 <BusinessFlow Guid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" Name="1234" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Step 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b321357d-4e20-40ae-9349-a67197309aee" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00%%" TargetApplication="MyWebApp">
 <Acts>
 <ActScreenShot Active="True" Description="Screen Shot Action" Guid="b9f9df36-8bc5-4863-b226-d2f227adcc74" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActSmartSync Active="True" Description="Smart Sync Action" Guid="70ee3ff7-4825-4c10-ac46-673d9ad06615" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="ffb3ed01-1e2d-42f4-9c31-9fd529bcaacc" Param="SmartSyncAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="WaitUntilDisplay" />
+</InputValues>
+</ActSmartSync>
+<ActPWL Active="True" Description="Two web elements distances" Guid="9431a3af-415d-4072-815a-277818a5c391" OLocateBy="NA" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" PWLAction="GetVDistanceTop2Top" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
 </Acts>
 </Activity>
 </Activities>
