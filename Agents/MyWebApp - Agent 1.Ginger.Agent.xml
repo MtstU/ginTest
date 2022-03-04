@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="99d93262-1753-45c5-a57b-c98f75a0a002" ItemType="Agent" CreatedBy="michmolo" Created="202202281715" GingerVersion="4.2.0.0" Version="2" LastUpdateBy="Пользователь" LastUpdate="202203021210" />
+<GingerRepositoryItem><Header ItemGuid="99d93262-1753-45c5-a57b-c98f75a0a002" ItemType="Agent" CreatedBy="michmolo" Created="202202281715" GingerVersion="4.2.0.0" Version="3" LastUpdateBy="michmolo" LastUpdate="202203030853" />
 <Agent AgentType="Driver" DriverType="SeleniumIE" Guid="99d93262-1753-45c5-a57b-c98f75a0a002" Name="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="24db5ff4-1e82-4d4f-b882-d5cea6eb6502" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="Proxy Auto Config Url" Guid="4b0ef28c-7bfa-4741-8a3b-7f8c629ca4dd" Parameter="ProxyAutoConfigUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="EnableNativeEvents(true) so as to perform native events smoothly on IE " Guid="aa1b739f-b602-4d99-8cb2-a6e9cc7c5131" Parameter="EnableNativeEvents" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
-<DriverConfigParam Description="Auto Detect Proxy Setting?" Guid="c664bcac-8562-4c8d-9728-116491ff6fae" Parameter="AutoDetect" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Auto Detect Proxy Setting?" Guid="c664bcac-8562-4c8d-9728-116491ff6fae" Parameter="AutoDetect" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
 <DriverConfigParam Description="Path to extension to be enabled" Guid="1d8b769d-e44c-4e55-98b1-a902edeaea85" Parameter="ExtensionPath" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="Disable Chrome Extension. This feature is not available anymore" Guid="4f9d18f3-2ca6-45bb-b5fe-0b78f6b4ba71" Parameter="DisableExtension" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
 <DriverConfigParam Description="Only for Internet Explorer |  Set &quot;false&quot; if dont want to clear the Internet Explorer cache before launching the browser" Guid="9d9d4ac9-3db1-4f86-ac8f-91b8eb8d246d" Parameter="EnsureCleanSession" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
