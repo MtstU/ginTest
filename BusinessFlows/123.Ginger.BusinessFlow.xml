@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202203031229" GingerVersion="4.2.0.0" Version="18" LastUpdateBy="michmolo" LastUpdate="202203040841" />
+<GingerRepositoryItem><Header ItemGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ItemType="BusinessFlow" CreatedBy="michmolo" Created="202203031229" GingerVersion="4.2.0.0" Version="21" LastUpdateBy="michmolo" LastUpdate="202203051443" />
 <BusinessFlow Elapsed="49011" Guid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" Name="1234" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login To Capsule2" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b321357d-4e20-40ae-9349-a67197309aee" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00%%" TargetApplication="MyWindowsApp">
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login To Capsule2" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b321357d-4e20-40ae-9349-a67197309aee" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00%%" TargetApplication="MyWebApp">
 <Acts>
-<ActBrowserElement Active="True" Description="Browser Action" Guid="d19e6a3f-73a8-44ae-8d97-85f479acb56a" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActBrowserElement Active="True" Description="Browser Action" Guid="6729395b-47df-42ec-a2a1-4d6a5a8ed0b0" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="6b3b6f59-7c5b-4215-970b-13694287c3fa" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="InitializeBrowser" />
-<ActInputValue Guid="7c703b92-52a0-486a-a282-15593598554b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=capsule2 URL}" />
-<ActInputValue Guid="f6ed2e0b-df6e-487e-b4b8-d39ed74af347" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="6eea6954-16f8-4d3d-a74f-4a9ab2c878e3" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
-<ActInputValue Guid="c7cd16c2-440f-4036-b201-974bf9063611" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
-<ActInputValue Guid="1e88a8b2-0d40-43e2-b6d5-f2f54a0a43f7" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
-<ActInputValue Guid="f5fb54a0-b48c-491d-832f-37c0b78556a6" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="bb1e021d-8e25-4765-a9db-a658267e5b7b" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="954573da-217e-4816-bb4a-8e107bf7b750" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=capsule2 URL}" />
+<ActInputValue Guid="de00f0c7-babd-4e67-bbd3-54d06538ba58" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9a0d46d3-a530-4f47-9e52-c6c58ebd8a45" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="7fd9eca0-58ec-4a01-8590-9d1f36c8e07d" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="3c34028d-93af-498b-87e4-4405ee3e10d7" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="7ebfd989-a9f4-4542-94d7-bacb27d0ef40" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActBrowserElement>
-<ActUIElement Active="True" Description="EnterLogin" Guid="a047dc78-4ab2-4e63-9651-d239768cb920" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActUIElement Active="True" Description="EnterLogin" Guid="a047dc78-4ab2-4e63-9651-d239768cb920" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="694274c3-fe09-45cb-b433-9f0ba98d681d" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
 <ActInputValue Guid="d03d0d82-4504-410e-adf8-744630093185" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
@@ -32,7 +32,7 @@
 <ActInputValue Guid="d82e8374-a151-4e63-a2b5-0bf63292fb2b" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
 </InputValues>
 </ActUIElement>
-<ActUIElement Active="True" Description="EnterPassword" Guid="76430453-1a6b-48e6-b31a-d43bbec18c54" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActUIElement Active="True" Description="EnterPassword" Guid="76430453-1a6b-48e6-b31a-d43bbec18c54" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="4070ae62-0411-482e-acd1-77829ac7a478" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
 <ActInputValue Guid="30c464a7-45ac-441a-82a1-b11a12d557da" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetValue" />
@@ -49,7 +49,7 @@
 <ActInputValue Guid="0213655a-7863-4e39-82f9-a7160464d35d" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
 </InputValues>
 </ActUIElement>
-<ActUIElement Active="True" Description="Click : Button -  input submit Login LoginButton Регистрация" Guid="8c85e61a-5072-4cba-913b-0167e968e7ab" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActUIElement Active="True" Description="Click : Button -  input submit Login LoginButton Регистрация" Guid="8c85e61a-5072-4cba-913b-0167e968e7ab" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="a6fba6d4-9089-49d4-8b78-6cb82357b74c" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
 <ActInputValue Guid="db8f96d1-228c-47ff-9e5d-759ed6fa3b85" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
@@ -63,7 +63,7 @@
 <ActInputValue Guid="7215f207-d5ba-4762-9acd-e01ed25d6810" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
 </InputValues>
 </ActUIElement>
-<ActUIElement Active="True" Description="CheckConnected" Guid="92ddab6f-e643-4d30-b503-9ad551e06be3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<ActUIElement Active="True" Description="CheckConnected" Guid="92ddab6f-e643-4d30-b503-9ad551e06be3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="4642c1aa-51a8-4fc8-b17b-c4fbbf9cc97a" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GetValue" />
 <ActInputValue Guid="6f7bed98-0db4-4a48-9d0c-e432f08d5bc4" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
@@ -84,6 +84,31 @@
 <ActReturnValue Active="True" Guid="50629805-5454-4297-88bf-7d4abcd09255" mExpected="Вы подключены" Operator="Equals" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
 </ReturnValues>
 </ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Enter TestStand" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="7bbbe9a0-f65b-493d-a4d8-62f948161333" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00%%" TargetApplication="MyWebApp">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="7a3dd8a3-3b35-4364-9244-0adbd4429383" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="InvertStatus" Timeout="2" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="3f1a9d15-89d1-46fb-9f8f-4704857bef55" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="0ccc6425-3571-48a6-90b0-8e8318c6e27a" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{Var Name=TestStand URL}" />
+<ActInputValue Guid="76265a66-57d4-4119-b00c-13e587de42d2" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="59737f69-2e00-4f1d-b801-b869dfa8596c" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="9a1fe5a2-e565-4359-8ca0-81975246f9e6" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="4f245f50-ebf6-4d70-ab09-e1ee1ff8d2ed" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="a415b1cf-6bfc-4ca8-b225-b4cb1e246ab4" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+<ActValidation Active="True" Description="Condition Validation Action" Guid="1235b514-d996-4322-a23e-786833e119e8" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" Condition="{FD Object=PreviousAction Field=Description}" FlowControlAction="GoToNextActivity" Guid="65013f73-de8f-40ed-b41c-d586f169d9a6" Operator="CSharp" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="3d84ff4f-323a-4532-953b-de70c0cffc72" Param="CalcEngineType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CS" />
+<ActInputValue Guid="14961280-57ff-4302-ab02-7d09d990cb9a" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{FD Object=PreviousAction Field=Status}" />
+</InputValues>
+</ActValidation>
 </Acts>
 </Activity>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="New Step" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="a80e0131-af8d-4ea3-9a3e-4b4ca130e32b" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00%%" TargetApplication="MyWindowsApp">
@@ -157,8 +182,9 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="8238b099-507d-4da1-a075-a81e8578a7c6" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b321357d-4e20-40ae-9349-a67197309aee" ActivityName="Login To Capsule2" Guid="c0a55325-6b2f-4917-8126-894311b5bea4" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a80e0131-af8d-4ea3-9a3e-4b4ca130e32b" ActivityName="New Step" Guid="c0b33c26-4063-41f0-aa75-b1d7d2599528" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b321357d-4e20-40ae-9349-a67197309aee" ActivityName="Login To Capsule2" Guid="24e540d9-5d23-440c-a596-2836bc439af0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7bbbe9a0-f65b-493d-a4d8-62f948161333" ActivityName="Enter TestStand" Guid="d40b97a6-a82b-497a-bcc2-e1a2bcf68dc3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a80e0131-af8d-4ea3-9a3e-4b4ca130e32b" ActivityName="New Step" Guid="b891623a-e3ad-4897-81cb-72f72251271b" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
@@ -172,5 +198,8 @@
 <VariableString Guid="fe8b3492-dae5-4ceb-a05a-f1582cd9c064" InitialStringValue="https://capsule2.rt.ru/Portal/Main" MappedOutputType="None" Name="capsule2 URL" ParentGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ParentName="1234" ParentType="Test Set" SetAsInputValue="False" SetAsOutputValue="False" />
 <VariableString Guid="0aede2aa-7f25-4409-b036-e42d43017556" InitialStringValue="Dmitriy.Al.Zakharov" MappedOutputType="None" Name="LoginForCapsule2" ParentGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ParentName="1234" ParentType="Test Set" SetAsInputValue="False" SetAsOutputValue="False" />
 <VariablePasswordString Guid="7bd05d1f-fc51-4dbd-914f-4c80c8e6e4b2" MappedOutputType="None" Name="Password For Capsule" ParentGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ParentName="1234" ParentType="Test Set" Password="1uNkydKQBZWxb8ki5JIV+g==" SetAsInputValue="False" SetAsOutputValue="False" />
+<VariableString Guid="01f13b2b-f62f-4189-87d6-e1703e3a2c5e" InitialStringValue="http://ssolb-bt1.pbs.sibir.rt.ru:47133/ps/ccm/portal/welcome" MappedOutputType="None" Name="TestStand URL" ParentGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ParentName="1234" ParentType="Test Set" SetAsInputValue="False" SetAsOutputValue="False" />
+<VariableString Guid="2e8d9de5-d507-414b-beda-1d4eb2bd6d5e" InitialStringValue="dmitriyz_Employee" MappedOutputType="None" Name="TestStand Login" ParentGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ParentName="1234" ParentType="Test Set" SetAsInputValue="False" SetAsOutputValue="False" />
+<VariablePasswordString Guid="67cffcc9-8145-4f29-b838-3bbe403a4afe" MappedOutputType="None" Name="TestStand Password" ParentGuid="37180c45-bdc4-465c-b00f-dbfc1299c3c7" ParentName="1234" ParentType="Test Set" Password="xLCzxt8pNm5/itOFARrDsA==" SetAsInputValue="False" SetAsOutputValue="False" />
 </Variables>
 </BusinessFlow></GingerRepositoryItem>
